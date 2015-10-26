@@ -5,6 +5,7 @@
 
 var Superslides, plugin = 'superslides';
 
+
 Superslides = function(el, options) {
   this.options = $.extend({
     play: false,
@@ -23,7 +24,15 @@ Superslides = function(el, options) {
       pagination: '.slides-pagination'
     }
   }, options);
-
+/*  var on=function(){
+    Superslides.options.play=true;
+  }
+  var off=function(){
+    Superslides.options.play=false;
+  }
+  setTimeout(function(){
+    on();
+  },2000)*/
   var that       = this,
       $control   = $('<div>', { "class": 'slides-control' }),
       multiplier = 1;
@@ -543,7 +552,7 @@ Superslides.prototype = {
     if (that.options.hashchange) {
       $(window).trigger('hashchange');
     } else {
-      this.animate();
+        that.animate();
     }
 
     if (this.options.play) {
