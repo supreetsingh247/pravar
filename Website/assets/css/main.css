@@ -1251,7 +1251,7 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #b1ddab;
+		background: #ec8058 ;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1270,7 +1270,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #c1edbb;
+			background: #F1A68A;
 		}
 
 		input[type="button"]:active,
@@ -1278,7 +1278,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #a1cd9b;
+			background: #ec8058;
 		}
 
 		input[type="button"].alt,
@@ -1425,7 +1425,7 @@
 			}
 
 				ul.special li:hover a {
-					background: #b9d2ce;
+					background: #f1a68a;
 				}
 
 		ul.special a {
@@ -1435,7 +1435,7 @@
 			transition: background-color .2s ease-in-out;
 			display: block;
 			position: relative;
-			background: #c1cac5;
+			background: #f1a68a;
 			width: 12em;
 			height: 12em;
 			border-radius: 6em;
@@ -1458,7 +1458,7 @@
 
 	ul.meta {
 		font-size: 0.85em;
-		color: #a1aaa5;
+		color: #f1a68a;
 	}
 
 		ul.meta li {
@@ -1512,7 +1512,7 @@
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6b7770;
+		color: #ec8058;
 	}
 
 	form input[type="text"],
@@ -1532,7 +1532,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #a1cd9b;
+			border-color: #f1a68a;
 		}
 
 	form input[type="text"],
@@ -1601,7 +1601,7 @@
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
 				text-transform: uppercase;
-				color: #6b7770;
+				color: #ec8058;
 			}
 
 			table.default thead {
@@ -1648,8 +1648,8 @@
 
 	#main-wrapper {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
+		border-top: solid 5px #f1a68a;
+		border-bottom: solid 5px #f1a68a;
 	}
 
 /* Banner */
@@ -1990,7 +1990,7 @@
 					}
 
 					#nav li:hover a, #nav li:hover span {
-						background: #C1CAC5;
+						background: #ec8058;
 						color: #fff;
 					}
 
@@ -2000,7 +2000,7 @@
 					}
 
 					#nav li.current a {
-						background: #b1ddab;
+						background: #f1a68a;
 						color: #fff;
 					}
 
@@ -2029,7 +2029,7 @@
 
 				.dropotron li:hover > a, .dropotron li:hover > span {
 					color: #fff;
-					background: #7B8780;
+					background: #f1a68a;
 				}
 
 				.dropotron li.active > a, .dropotron li.active > span {

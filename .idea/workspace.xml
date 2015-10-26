@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc17fe7-4ddc-4f18-9544-57c078f48859" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/images/INSOLERGY_LOGO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/colours" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/index.html" afterPath="$PROJECT_DIR$/Website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/dist/jquery.superslides.js" afterPath="$PROJECT_DIR$/Website/dist/jquery.superslides.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/assets/css/main.css" afterPath="$PROJECT_DIR$/Website/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2773893">
-              <caret line="242" column="22" selection-start-line="156" selection-start-column="40" selection-end-line="242" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.1981352">
+              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -68,8 +69,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.735294">
-              <caret line="1321" column="21" selection-start-line="1321" selection-start-column="21" selection-end-line="1321" selection-end-column="21" />
+            <state vertical-scroll-proportion="20.588236">
+              <caret line="1928" column="0" selection-start-line="1928" selection-start-column="0" selection-end-line="1928" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colours" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/colours">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -138,9 +149,10 @@
         <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/Website/examples/fade.html" />
         <option value="$PROJECT_DIR$/Website/examples/css/layout.css" />
+        <option value="$PROJECT_DIR$/Website/dist/jquery.superslides.js" />
+        <option value="$PROJECT_DIR$/Website/colours" />
         <option value="$PROJECT_DIR$/Website/assets/css/main.css" />
         <option value="$PROJECT_DIR$/Website/index.html" />
-        <option value="$PROJECT_DIR$/Website/dist/jquery.superslides.js" />
       </list>
     </option>
   </component>
@@ -520,7 +532,19 @@
       <option name="project" value="LOCAL" />
       <updated>1445804241943</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added page 3 and other tweaks">
+      <created>1445808700620</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1445808700620</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added page 3 and other tweaks">
+      <created>1445884136595</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1445884136596</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -572,7 +596,8 @@
     <MESSAGE value="Added New images for testing" />
     <MESSAGE value="Completed the page 2" />
     <MESSAGE value="Added and optimised images for page 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and optimised images for page 2" />
+    <MESSAGE value="Added page 3 and other tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added page 3 and other tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.735294">
-          <caret line="1321" column="21" selection-start-line="1321" selection-start-column="21" selection-end-line="1321" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/dist/jquery.superslides.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.0">
@@ -653,10 +670,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Website/colours">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="20.588236">
+          <caret line="1928" column="0" selection-start-line="1928" selection-start-column="0" selection-end-line="1928" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2773893">
-          <caret line="242" column="22" selection-start-line="156" selection-start-column="40" selection-end-line="242" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.1981352">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
