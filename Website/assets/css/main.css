@@ -1648,8 +1648,8 @@
 
 	#main-wrapper {
 		background: #fff;
-		border-top: solid 5px #f1a68a;
-		border-bottom: solid 5px #f1a68a;
+		border-top: solid 5px rgba(255, 255, 255, 1);
+		border-bottom: solid 5px #ffffff;
 	}
 
 /* Banner */
@@ -2527,7 +2527,7 @@
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #ec8058;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2538,7 +2538,7 @@
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: #F1A68A;
 					}
 
 			#navPanel {
