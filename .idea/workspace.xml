@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc17fe7-4ddc-4f18-9544-57c078f48859" name="Default" comment="Added ticks, changed colours, Changed heading">
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\pic01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\pic02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\pic03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\pic04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\images\pic05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\left-sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\no-sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Savy\Documents\GitHub\pravar\Website\right-sidebar.html" afterPath="" />
+    <list default="true" id="ffc17fe7-4ddc-4f18-9544-57c078f48859" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/images/Call_Whatsapp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/images/Call_Whatsapp.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/index.html" afterPath="$PROJECT_DIR$/Website/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5971897">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.88056207">
+              <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/Website/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1942" column="30" selection-start-line="1942" selection-start-column="30" selection-end-line="1942" selection-end-column="30" />
+              <caret line="1939" column="64" selection-start-line="1939" selection-start-column="64" selection-end-line="1939" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -484,12 +477,24 @@
       <option name="project" value="LOCAL" />
       <updated>1445993514878</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adjusted logo, headings size and position">
+      <created>1445993601546</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1445993601546</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changed the nav bar to semi transparent white">
+      <created>1445993731256</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1445993731256</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="850" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21835443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -544,7 +549,9 @@
     <MESSAGE value="Added ticks, changed colours, Changed heading" />
     <MESSAGE value="Changed the nav bar width from 3.25 em to 4.5 em" />
     <MESSAGE value="Adjusted padding to centre the image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted padding to centre the image" />
+    <MESSAGE value="Adjusted logo, headings size and position" />
+    <MESSAGE value="Changed the nav bar to semi transparent white" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the nav bar to semi transparent white" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/examples/css/yolo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5">
-          <caret line="320" column="37" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/colours">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -636,15 +635,23 @@
     <entry file="file://$PROJECT_DIR$/Website/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1942" column="30" selection-start-line="1942" selection-start-column="30" selection-end-line="1942" selection-end-column="30" />
+          <caret line="1939" column="64" selection-start-line="1939" selection-start-column="64" selection-end-line="1939" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/examples/css/yolo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5">
+          <caret line="320" column="37" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5971897">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.88056207">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
