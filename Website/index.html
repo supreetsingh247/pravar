@@ -125,17 +125,42 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="12u">
+												<div class="12u" style="width: 85%;	padding-left: 25%">
 													<ul class="actions">
 														<!--<li>-->
 														<!--<p style="margin-left: 200px"></p>-->
-														<form id="contact1" method="post">
-															<input type="submit"value="Contact Me" style="float: right" />
-															<p style="float: left;font-size: 1.3em;vertical-align:bottom;margin-top: 0.8%;margin-bottom: 0%;padding-right: 1% ">Not Sure? Need some advice? Just share your contact info</p>
+														<p id="contactText" style="font-size: 1.3em">Need help? Share your contact details</p>
+														<div id="contact">
+															<form id="contact1" name="form1" onsubmit="changeValue()">
+															<input type="submit" name= 'b1' value="Contact Me" style="float: right" onclick=""/>
+															<script>
+																function changeValue() {
+																	document.form1.b1.value='Done';
+																	document.form1.detail.value='Thanks';
+																	document.getElementById("contact").remove();
+																	var element = document.getElementById("contactText");
+																	var jawak=document.createElement('p');
+																	var text=document.createTextNode('Awesome! We will get in touch.');
+																	jawak.appendChild(text);
+																	element.appendChild(jawak);
+
+																}
+																Element.prototype.remove = function() {
+																	this.parentElement.removeChild(this);
+																}
+																NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+																	for(var i = this.length - 1; i >= 0; i--) {
+																		if(this[i] && this[i].parentElement) {
+																			this[i].parentElement.removeChild(this[i]);
+																		}
+																	}
+																}
+															</script>
 															<div style="overflow: hidden; padding-right: .5em;">
-																<input type="text" style="width: 100%;" placeholder="Email/Phone" required/>
+																<input name ='detail' type="text" style="width: 100%;" placeholder="Email/Phone" required/>
 															</div>
 														</form>
+															</div>
 														<!--</li>-->
 													</ul>
 												</div>
