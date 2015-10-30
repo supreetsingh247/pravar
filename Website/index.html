@@ -129,21 +129,22 @@
 													<ul class="actions">
 														<!--<li>-->
 														<!--<p style="margin-left: 200px"></p>-->
+														<div id="divToFocus" tabindex='1'>
 														<p id="contactText" style="font-size: 1.3em">Need help? Share your contact details</p>
+															</div>
 														<div id="contact">
-															<form id="contact1" name="form1" onsubmit="changeValue()">
-															<input type="submit" name= 'b1' value="Contact Me" style="float: right" onclick=""/>
+															<form id="contact1" name="form1">
+															<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
 															<script>
 																function changeValue() {
-																	document.form1.b1.value='Done';
-																	document.form1.detail.value='Thanks';
+//																	$('#contact').replaceWith('<p>yolo</p>');
 																	document.getElementById("contact").remove();
 																	var element = document.getElementById("contactText");
 																	var jawak=document.createElement('p');
 																	var text=document.createTextNode('Awesome! We will get in touch.');
 																	jawak.appendChild(text);
 																	element.appendChild(jawak);
-
+																	//$(window).scrollTop($('#divToFocus').offset().top);
 																}
 																Element.prototype.remove = function() {
 																	this.parentElement.removeChild(this);
