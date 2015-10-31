@@ -39,20 +39,21 @@
 			<!--Slider Starts-->
 			<div id="slides">
 				<div class="slides-container">
-					<img src="examples/images/surly.png" width="1024" height="682" alt="Surly">
-					<!--<img src="examples/images/cinelli-front.jpeg" width="1024" height="683" alt="Cinelli">-->
-					<img src="examples/images/affinity.jpeg" width="1024" height="685" alt="Affinity">
-					<img src="examples/images/people.jpeg" alt="Cinelli">
+					<img src="examples/images/potential.jpeg" width="1024" height="682" alt="Potential">
+					<img src="examples/images/shopkeeper.jpg" width="1024" height="685" alt="Shopkeeper">
+					<img src="examples/images/healthCare.jpg" alt="Health Care">
+					<img src="examples/images/clean.jpg" alt="Clean">
+					<img src="examples/images/smartChoice.jpg" alt="Smart Choice">
 				</div>
 
-				<nav class="slides-navigation">
-					<a href="#" class="next">
-						<img src="images/rightArrow.png" width="23">
-					</a>
-					<a href="#" class="prev">
-						<img src="images/leftArrow.png" width="23">
-					</a>
-				</nav>
+				<!--<nav class="slides-navigation">-->
+					<!--<a href="#" class="next">-->
+						<!--<img src="images/rightArrow.png" width="23">-->
+					<!--</a>-->
+					<!--<a href="#" class="prev">-->
+						<!--<img src="images/leftArrow.png" width="23">-->
+					<!--</a>-->
+				<!--</nav>-->
 			</div>
 			<!--Slider Ends-->
 			<!-- Banner -->
@@ -137,14 +138,12 @@
 															<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
 															<script>
 																function changeValue() {
-//																	$('#contact').replaceWith('<p>yolo</p>');
 																	document.getElementById("contact").remove();
 																	var element = document.getElementById("contactText");
 																	var jawak=document.createElement('p');
 																	var text=document.createTextNode('Awesome! We will get in touch.');
 																	jawak.appendChild(text);
 																	element.appendChild(jawak);
-																	//$(window).scrollTop($('#divToFocus').offset().top);
 																}
 																Element.prototype.remove = function() {
 																	this.parentElement.removeChild(this);
@@ -158,7 +157,7 @@
 																}
 															</script>
 															<div style="overflow: hidden; padding-right: .5em;">
-																<input name ='detail' type="text" style="width: 100%;" placeholder="Email/Phone" required/>
+																<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
 															</div>
 														</form>
 															</div>
