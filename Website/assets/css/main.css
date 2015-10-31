@@ -349,7 +349,11 @@
 		clear: none;
 		margin-left: 0;
 	}
-
+	.\40 u, .\40 u\24 {
+		width: 33%;
+		clear: none;
+		margin-left: 0;
+	}}
 	.\32 u, .\32 u\24 {
 		width: 16.6666666667%;
 		clear: none;
@@ -365,6 +369,7 @@
 	.\31 2u\24 + *,
 	.\31 1u\24 + *,
 	.\31 0u\24 + *,
+	.\30 u\24 + *,
 	.\39 u\24 + *,
 	.\38 u\24 + *,
 	.\37 u\24 + *,
@@ -562,7 +567,11 @@
 			clear: none;
 			margin-left: 0;
 		}
-
+		.\40 u\28desktop\29, .\40 u\24\28desktop\29 {
+			width: 33%;
+			clear: none;
+			margin-left: 0;
+		}
 		.\32 u\28desktop\29, .\32 u\24\28desktop\29 {
 			width: 16.6666666667%;
 			clear: none;
@@ -578,6 +587,7 @@
 		.\31 2u\24\28desktop\29 + *,
 		.\31 1u\24\28desktop\29 + *,
 		.\31 0u\24\28desktop\29 + *,
+	  	.\40 u\24\28desktop\29 + *,
 		.\39 u\24\28desktop\29 + *,
 		.\38 u\24\28desktop\29 + *,
 		.\37 u\24\28desktop\29 + *,
@@ -777,7 +787,11 @@
 			clear: none;
 			margin-left: 0;
 		}
-
+		.\40 u\28tablet\29, .\40 u\24\28tablet\29 {
+			width: 33%;
+			clear: none;
+			margin-left: 0;
+		}
 		.\32 u\28tablet\29, .\32 u\24\28tablet\29 {
 			width: 16.6666666667%;
 			clear: none;
@@ -793,6 +807,7 @@
 		.\31 2u\24\28tablet\29 + *,
 		.\31 1u\24\28tablet\29 + *,
 		.\31 0u\24\28tablet\29 + *,
+		.\40 u\24\28tablet\29 + *,
 		.\39 u\24\28tablet\29 + *,
 		.\38 u\24\28tablet\29 + *,
 		.\37 u\24\28tablet\29 + *,
@@ -992,7 +1007,11 @@
 			clear: none;
 			margin-left: 0;
 		}
-
+		.\40 u\28mobile\29, .\40 u\24\28mobile\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
 		.\32 u\28mobile\29, .\32 u\24\28mobile\29 {
 			width: 16.6666666667%;
 			clear: none;
@@ -1008,6 +1027,7 @@
 		.\31 2u\24\28mobile\29 + *,
 		.\31 1u\24\28mobile\29 + *,
 		.\31 0u\24\28mobile\29 + *,
+		.\40 u\24\28mobile\29 + *,
 		.\39 u\24\28mobile\29 + *,
 		.\38 u\24\28mobile\29 + *,
 		.\37 u\24\28mobile\29 + *,

@@ -78,7 +78,7 @@
 													<!-- Feature -->
 														<section class="box feature">
 															<a class="image featured"><img src="images/rupee.jpg" alt="" /></a>
-															<h3><>Escalating Energy Costs?</a></h3>
+															<h3><a>Escalating Energy Costs?</a></h3>
 															<p style="text-align: justify">
 																You may be a homeowner or a shopkeeper, a housing society or an institution, Insolergy can help bring your energy bills down
 															</p>
@@ -259,6 +259,81 @@
 							<!-- About -->
 								<section>
 									<h2 class="major"><span>About Us</span></h2>
+									<div class="row">
+										<div class="@u 12u(mobile) footer">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Escalating Energy Costs?</a></h3>
+												<p style="text-align: justify">
+													You may be a homeowner or a shopkeeper, a housing society or an institution, Insolergy can help bring your energy bills down
+												</p>
+											</section>
+
+										</div>
+										<div class="@u 12u(mobile) footer">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Frequent power cuts?</a></h3>
+												<p  style="text-align: justify">
+													Unreliable power is a huge concern for everyone - parents raising their children,
+													youth following their aspirations, doctors treating their patients or businesses running their operations. Insolergy can secure your energy supply
+												</p>
+											</section>
+
+										</div>
+										<div class="@u 12u(mobile)">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Already into Solar?</a></h3>
+												<p style="text-align: justify">
+													If you are an Installer or a Do-It-Yourself Enthusiast, Insolergy can assist you in
+													your mission to go Solar!
+												</p>
+											</section>
+
+										</div>
+									</div>
+									<div class="row">
+										<div class="12u" style="width: 85%;	padding-left: 25%">
+											<ul class="actions">
+												<!--<li>-->
+												<!--<p style="margin-left: 200px"></p>-->
+												<p id="contactText1" style="font-size: 1.3em">Need help? Share your contact details</p>
+												<div id="contact2">
+													<form id="contact3" name="form1">
+														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue2()"/>
+														<script>
+															function changeValue2() {
+																document.getElementById("contact2").remove2();
+																var element = document.getElementById("contactText1");
+																var jawak=document.createElement('p');
+																var text=document.createTextNode('Awesome! We will get in touch.');
+																jawak.appendChild(text);
+																element.appendChild(jawak);
+															}
+															Element.prototype.remove2 = function() {
+																this.parentElement.removeChild(this);
+															}
+															NodeList.prototype.remove2 = HTMLCollection.prototype.remove2 = function() {
+																for(var i = this.length - 1; i >= 0; i--) {
+																	if(this[i] && this[i].parentElement) {
+																		this[i].parentElement.removeChild(this[i]);
+																	}
+																}
+															}
+														</script>
+														<div style="overflow: hidden; padding-right: .5em;">
+															<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+														</div>
+													</form>
+												</div>
+												<!--</li>-->
+											</ul>
+										</div>
+									</div>
 									<p style="text-align: justify">
 										We at <b>Insolergy</b> recognize that access to reliable electric power is one of the
 										fundamental requirements for the <b>development</b> of our society and country. We
