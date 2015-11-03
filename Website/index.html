@@ -25,8 +25,8 @@
 				<nav id="nav">
 
 					<ul>
-						<img src="images/INSOLERGY_LOGO.png" width="210px" align="left">
-						<li><a href="index.html">Home</a></li>
+						<a href="#"><img src="images/INSOLERGY_LOGO.png" width="210px" align="left"></a>
+						<li><a href="index.html#">Home</a></li>
 						<li><a href="#page2">Services</a></li>
 						<li><a href="#page3">Solar</a></li>
 						<li><a href="#page4">Contact</a></li>
@@ -39,20 +39,21 @@
 			<!--Slider Starts-->
 			<div id="slides">
 				<div class="slides-container">
-					<img src="examples/images/surly.png" width="1024" height="682" alt="Surly">
-					<!--<img src="examples/images/cinelli-front.jpeg" width="1024" height="683" alt="Cinelli">-->
-					<img src="examples/images/affinity.jpeg" width="1024" height="685" alt="Affinity">
-					<img src="examples/images/people.jpeg" alt="Cinelli">
+					<img src="examples/images/potential.jpeg" width="1024" height="682" alt="Potential">
+					<img src="examples/images/shopkeeper.jpg" width="1024" height="685" alt="Shopkeeper">
+					<img src="examples/images/healthCare.jpg" alt="Health Care">
+					<img src="examples/images/clean.jpg" alt="Clean">
+					<img src="examples/images/smartChoice.jpg" alt="Smart Choice">
 				</div>
 
-				<nav class="slides-navigation">
-					<a href="#" class="next">
-						<img src="images/rightArrow.png" width="23">
-					</a>
-					<a href="#" class="prev">
-						<img src="images/leftArrow.png" width="23">
-					</a>
-				</nav>
+				<!--<nav class="slides-navigation">-->
+					<!--<a href="#" class="next">-->
+						<!--<img src="images/rightArrow.png" width="23">-->
+					<!--</a>-->
+					<!--<a href="#" class="prev">-->
+						<!--<img src="images/leftArrow.png" width="23">-->
+					<!--</a>-->
+				<!--</nav>-->
 			</div>
 			<!--Slider Ends-->
 			<!-- Banner -->
@@ -76,8 +77,8 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/rupee.jpg" alt="" /></a>
-															<h3><a href="#">Escalating Energy Costs?</a></h3>
+															<a class="image featured"><img src="images/rupee.jpg" alt="" /></a>
+															<h3><a>Escalating Energy Costs?</a></h3>
 															<p style="text-align: justify">
 																You may be a homeowner or a shopkeeper, a housing society or an institution, Insolergy can help bring your energy bills down
 															</p>
@@ -88,8 +89,8 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/powerCut.jpg" alt="" /></a>
-															<h3><a href="#">Frequent power cuts?</a></h3>
+															<a class="image featured"><img src="images/powerCut.jpg" alt="" /></a>
+															<h3><a>Frequent power cuts?</a></h3>
 															<p  style="text-align: justify">
 																Unreliable power is a huge concern for everyone - parents raising their children,
 																youth following their aspirations, doctors treating their patients or businesses running their operations. Insolergy can secure your energy supply
@@ -101,8 +102,8 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/solar.jpg" alt="" /></a>
-															<h3><a href="#">Already into Solar?</a></h3>
+															<a class="image featured"><img src="images/solar.jpg" alt="" /></a>
+															<h3><a>Already into Solar?</a></h3>
 															<p style="text-align: justify">
 																If you are an Installer or a Do-It-Yourself Enthusiast, Insolergy can assist you in
 																your mission to go Solar!
@@ -114,8 +115,8 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/philanthropy.jpg" alt=""  /></a>
-															<h3><a href="#">In business of helping others?</a></h3>
+															<a class="image featured"><img src="images/philanthropy.jpg" alt=""  /></a>
+															<h3><a>In business of helping others?</a></h3>
 															<p style="text-align: justify">
 																Insolergy can offer unique solutions to Philanthropists and Social Enterprises,
 																especially those who are working in locations without reliable power supply
@@ -125,17 +126,41 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="12u">
+												<div class="12u" style="width: 85%;	padding-left: 25%">
 													<ul class="actions">
 														<!--<li>-->
 														<!--<p style="margin-left: 200px"></p>-->
-														<form id="contact1" method="post">
-															<input type="submit"value="Contact Me" style="float: right" />
-															<p style="float: left;font-size: 1.3em;vertical-align:bottom;margin-top: 0.8%;margin-bottom: 0%;padding-right: 1% ">Not Sure? Need some advice? Just share your contact info</p>
+														<div id="divToFocus" tabindex='1'>
+														<p id="contactText" style="font-size: 1.3em">Need help? Share your contact details</p>
+															</div>
+														<div id="contact">
+															<form id="contact1" name="form1">
+															<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
+															<script>
+																function changeValue() {
+																	document.getElementById("contact").remove();
+																	var element = document.getElementById("contactText");
+																	var jawak=document.createElement('p');
+																	var text=document.createTextNode('Awesome! We will get in touch.');
+																	jawak.appendChild(text);
+																	element.appendChild(jawak);
+																}
+																Element.prototype.remove = function() {
+																	this.parentElement.removeChild(this);
+																}
+																NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+																	for(var i = this.length - 1; i >= 0; i--) {
+																		if(this[i] && this[i].parentElement) {
+																			this[i].parentElement.removeChild(this[i]);
+																		}
+																	}
+																}
+															</script>
 															<div style="overflow: hidden; padding-right: .5em;">
-																<input type="text" style="width: 100%;" placeholder="Email/Phone" required/>
+																<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
 															</div>
 														</form>
+															</div>
 														<!--</li>-->
 													</ul>
 												</div>
@@ -158,14 +183,14 @@
 														<!-- Featured Post -->
 															<article class="box post">
 																<header>
-																	<h3><a href="#">How Does it work?</a></h3>
+																	<h3><a>How Does it work?</a></h3>
 																	<!--<p>With a smaller subtitle that attempts to elaborate</p>-->
 																<!--	<ul class="meta">
 																		<li class="icon fa-clock-o">15 minutes ago</li>
 																		<li class="icon fa-comments"><a href="#">8</a></li>
 																	</ul>-->
 																</header>
-																<a href="#" class="image featured"><img src="images/solar2.jpg" alt="" /></a>
+																<a class="image featured"><img src="images/solar2.jpg" alt="" /></a>
 																<p style="text-align: justify">
 																	Solar Technology is very simple. All you need is shade free space available to install the solar panels.
 																	As sun shines, the panels will generate electricity. Additionally an inverter is required to make this
@@ -173,7 +198,6 @@
 																	Wondering what will happen at night? Don’t worry, batteries can be used to store solar energy generated
 																	during the day
 																</p>
-																<a href="#" class="button">Continue Reading</a>
 															</article>
 
 													</div>
@@ -203,8 +227,14 @@
 																</li>
 																<li>
 																	<article class="box post-summary">
-																		<h3><img src="images/tickFinal.png" width="15px"> Makes No Noise</a></h3>
+																		<h3><img src="images/tickFinal.png" width="15px"> Seamless</a></h3>
 																		<p>with no moving parts, you will not even realize that system is at work</p>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><img src="images/tickFinal.png" width="15px"> Clean</a></h3>
+																		<p>Unlike other sources, does not produce harmful emissions</p>
 																	</article>
 																</li>
 															</ul>
@@ -229,6 +259,81 @@
 							<!-- About -->
 								<section>
 									<h2 class="major"><span>About Us</span></h2>
+									<div class="row">
+										<div class="@u 12u(mobile) footer">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Escalating Energy Costs?</a></h3>
+												<p style="text-align: justify">
+													You may be a homeowner or a shopkeeper, a housing society or an institution, Insolergy can help bring your energy bills down
+												</p>
+											</section>
+
+										</div>
+										<div class="@u 12u(mobile) footer">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Frequent power cuts?</a></h3>
+												<p  style="text-align: justify">
+													Unreliable power is a huge concern for everyone - parents raising their children,
+													youth following their aspirations, doctors treating their patients or businesses running their operations. Insolergy can secure your energy supply
+												</p>
+											</section>
+
+										</div>
+										<div class="@u 12u(mobile)">
+
+											<!-- Feature -->
+											<section class="box feature">
+												<h3><a>Already into Solar?</a></h3>
+												<p style="text-align: justify">
+													If you are an Installer or a Do-It-Yourself Enthusiast, Insolergy can assist you in
+													your mission to go Solar!
+												</p>
+											</section>
+
+										</div>
+									</div>
+									<div class="row">
+										<div class="12u" style="width: 85%;	padding-left: 25%">
+											<ul class="actions">
+												<!--<li>-->
+												<!--<p style="margin-left: 200px"></p>-->
+												<p id="contactText1" style="font-size: 1.3em">Need help? Share your contact details</p>
+												<div id="contact2">
+													<form id="contact3" name="form1">
+														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue2()"/>
+														<script>
+															function changeValue2() {
+																document.getElementById("contact2").remove2();
+																var element = document.getElementById("contactText1");
+																var jawak=document.createElement('p');
+																var text=document.createTextNode('Awesome! We will get in touch.');
+																jawak.appendChild(text);
+																element.appendChild(jawak);
+															}
+															Element.prototype.remove2 = function() {
+																this.parentElement.removeChild(this);
+															}
+															NodeList.prototype.remove2 = HTMLCollection.prototype.remove2 = function() {
+																for(var i = this.length - 1; i >= 0; i--) {
+																	if(this[i] && this[i].parentElement) {
+																		this[i].parentElement.removeChild(this[i]);
+																	}
+																}
+															}
+														</script>
+														<div style="overflow: hidden; padding-right: .5em;">
+															<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+														</div>
+													</form>
+												</div>
+												<!--</li>-->
+											</ul>
+										</div>
+									</div>
 									<p style="text-align: justify">
 										We at <b>Insolergy</b> recognize that access to reliable electric power is one of the
 										fundamental requirements for the <b>development</b> of our society and country. We
