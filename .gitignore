@@ -4,3 +4,4 @@
 .sass-cache/
 public
 node_modules/
+.idea/misc.xml
