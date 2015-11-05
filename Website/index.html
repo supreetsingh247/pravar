@@ -30,7 +30,7 @@
 						<li><a href="#page2">Services</a></li>
 						<li><a href="#page3">Solar</a></li>
 						<li><a href="#page4">Contact</a></li>
-						<img src="images/Call_Whatsapp.png" width="250px" align="right">
+						<img src="images/Call_Whatsapp.png" width="270px" align="right">
 						<!--<li><a href="#"><p>Call/Whatsapp - +91 99999999</p></a></li>-->
 					</ul>
 				</nav>
@@ -126,24 +126,27 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="12u" style="width: 85%;	padding-left: 25%">
+												<div class="12u" style="width: 85%;	padding-left: 25%;padding-top: 0px">
 													<ul class="actions">
 														<!--<li>-->
 														<!--<p style="margin-left: 200px"></p>-->
 														<div id="divToFocus" tabindex='1'>
-														<p id="contactText" style="font-size: 1.3em">Need help? Share your contact details</p>
+														<p id="contactText" style="font-size: 1.3em"><p id="oldChild">Need help? Share your contact details</p></p>
 															</div>
 														<div id="contact">
 															<form id="contact1" name="form1">
 															<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
 															<script>
 																function changeValue() {
+																	if(document.getElementsByName('detail')[0].value=='' || undefined)
+																		return;
 																	document.getElementById("contact").remove();
 																	var element = document.getElementById("contactText");
 																	var jawak=document.createElement('p');
 																	var text=document.createTextNode('Awesome! We will get in touch.');
 																	jawak.appendChild(text);
 																	element.appendChild(jawak);
+																	document.getElementById("oldChild").remove();
 																}
 																Element.prototype.remove = function() {
 																	this.parentElement.removeChild(this);
@@ -284,7 +287,7 @@
 													<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
 													<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
 													<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-													<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+													<!--<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>-->
 												</ul>
 											</section>
 
@@ -294,33 +297,36 @@
 											<!-- Feature -->
 											<section class="box feature">
 												<p style="text-align: justify">
-													Insolergy Technologies Private Limited<br>
+													<b>Insolergy Technologies Private Limited<br></b>
 													Hiranandani Estate, Ghodbunder Road,<br>
 													Thane (W), Maharashtra 400 607<br>
-													Email: ask@insolergy.com<br>
-													Call or WhatsApp: +91 999 999 9999<br>
+													<b>Email</b>: ask@insolergy.com<br>
+													<b>Call or WhatsApp</b>: +91 999 999 9999<br>
 												</p>
 											</section>
 
 										</div>
 									</div>
 									<div class="row">
-										<div class="12u" style="width: 85%;	padding-left: 25%">
+										<div class="12u" style="width: 85%;	padding-left: 25%;padding-top: 0px">
 											<ul class="actions">
 												<!--<li>-->
 												<!--<p style="margin-left: 200px"></p>-->
-												<p id="contactText1" style="font-size: 1.3em">Need help? Share your contact details</p>
+												<p id="contactText1" style="font-size: 1.3em"><p id="oldChild2">Need help? Share your contact details</p></p>
 												<div id="contact2">
 													<form id="contact3" name="form1">
 														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue2()"/>
 														<script>
 															function changeValue2() {
+																if(document.getElementsByName('detail2')[0].value=='' || undefined)
+																	return;
 																document.getElementById("contact2").remove2();
 																var element = document.getElementById("contactText1");
 																var jawak=document.createElement('p');
 																var text=document.createTextNode('Awesome! We will get in touch.');
 																jawak.appendChild(text);
 																element.appendChild(jawak);
+																document.getElementById("oldChild2").remove2();
 															}
 															Element.prototype.remove2 = function() {
 																this.parentElement.removeChild(this);
@@ -334,7 +340,7 @@
 															}
 														</script>
 														<div style="overflow: hidden; padding-right: .5em;">
-															<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+															<input name ='detail2' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
 														</div>
 													</form>
 												</div>
