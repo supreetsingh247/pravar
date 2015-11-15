@@ -39,11 +39,11 @@
 			<!--Slider Starts-->
 			<div id="slides">
 				<div class="slides-container">
-					<img src="examples/images/potential.jpeg" width="1024" height="682" alt="Potential">
-					<img src="examples/images/shopkeeper.jpg" width="1024" height="685" alt="Shopkeeper">
-					<img src="examples/images/healthCare.jpg" alt="Health Care">
-					<img src="examples/images/clean.jpg" alt="Clean">
-					<img src="examples/images/smartChoice.jpg" alt="Smart Choice">
+					<img src="examples/images/potential.jpeg" width="100%" height="682" alt="Potential">
+					<img src="examples/images/shopkeeper.jpg" width="100%" height="685" alt="Shopkeeper">
+					<img src="examples/images/healthCare.jpg" width="100%" alt="Health Care">
+					<img src="examples/images/clean.jpg" width="100%" alt="Clean">
+					<img src="examples/images/smartChoice.jpg" width="100%" alt="Smart Choice">
 				</div>
 
 				<!--<nav class="slides-navigation">-->
@@ -126,48 +126,48 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="12u" style="width: 85%;	padding-left: 20%;padding-top: 0px">
-													<ul class="actions">
-														<!--<li>-->
-														<!--<p style="margin-left: 200px"></p>-->
-														<div id="divToFocus" tabindex='1'>
-														<p id="contactText" style="font-size: 1.3em"><p id="oldChild"> Want us to contact you? Share your details</p></p>
-															</div>
-														<div id="contact">
-															<form id="contact1" name="form1">
-															<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
-															<script>
-																function changeValue() {
-																	if(document.getElementsByName('detail')[0].value=='' || undefined)
-																		return;
-																	document.getElementById("contact").remove();
-																	var element = document.getElementById("contactText");
-																	var jawak=document.createElement('p');
-																	var text=document.createTextNode('Awesome! We will get in touch.');
-																	jawak.appendChild(text);
-																	element.appendChild(jawak);
-																	document.getElementById("oldChild").remove();
-																}
-																Element.prototype.remove = function() {
-																	this.parentElement.removeChild(this);
-																}
-																NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
-																	for(var i = this.length - 1; i >= 0; i--) {
-																		if(this[i] && this[i].parentElement) {
-																			this[i].parentElement.removeChild(this[i]);
+													<div class="12u" style="width: 85%;	padding-left: 20%;padding-top: 0px">
+														<ul class="actions">
+															<!--<li>-->
+															<!--<p style="margin-left: 200px"></p>-->
+															<div id="divToFocus" tabindex='1'>
+															<p id="contactText" style="font-size: 1.3em"><p id="oldChild"> Want us to contact you? Share your details</p></p>
+																</div>
+															<div id="contact">
+																<form id="contact1" name="form1" action="contact.php" method="post">
+																<input type="submit" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
+																<script>
+																	function changeValue() {
+																		if(document.getElementsByName('detail')[0].value=='' || undefined)
+																			return;
+																		document.getElementById("contact").remove();
+																		var element = document.getElementById("contactText");
+																		var jawak=document.createElement('p');
+																		var text=document.createTextNode('Awesome! We will get in touch.');
+																		jawak.appendChild(text);
+																		element.appendChild(jawak);
+																		document.getElementById("oldChild").remove();
+																	}
+																	Element.prototype.remove = function() {
+																		this.parentElement.removeChild(this);
+																	}
+																	NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+																		for(var i = this.length - 1; i >= 0; i--) {
+																			if(this[i] && this[i].parentElement) {
+																				this[i].parentElement.removeChild(this[i]);
+																			}
 																		}
 																	}
-																}
-															</script>
-															<div style="overflow: hidden; padding-right: .5em;">
-																<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
-															</div>
-														</form>
-															</div>
-														<!--</li>-->
-													</ul>
+																</script>
+																<div style="overflow: hidden; padding-right: .5em;">
+																	<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+																</div>
+															</form>
+																</div>
+															<!--</li>-->
+														</ul>
+													</div>
 												</div>
-											</div>
 										</div>
 									</section>
 								<a name="page3"></a>
