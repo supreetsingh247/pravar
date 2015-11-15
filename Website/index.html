@@ -134,9 +134,26 @@
 															<p id="contactText" style="font-size: 1.3em"><p id="oldChild"> Want us to contact you? Share your details</p></p>
 																</div>
 															<div id="contact">
-																<form id="contact1" name="form1" action="contact.php" method="post">
-																<input type="submit" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue()"/>
+																<form id="contact1" name="form1">
+																<input type="submit" name= 'b1' value="Contact Me" style="float: right" onclick="processData(event)"/>
 																<script>
+                                                                    function responseHandler(evt) {
+                                                                        console.log(this.responseText);
+                                                                        changeValue();
+                                                                    }
+                                                                    function processData(evt) {
+                                                                        evt.preventDefault();
+
+                                                                        var email = document.getElementById("email").value;
+
+                                                                        var xhr = new XMLHttpRequest();
+                                                                        xhr.addEventListener("load", responseHandler);
+
+                                                                        xhr.open("POST", "contact.php", true);
+                                                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                                                        xhr.send("email=" + email + "&message=<insertMessageTextHere>");
+                                                                    }
+
 																	function changeValue() {
 																		if(document.getElementsByName('detail')[0].value=='' || undefined)
 																			return;
@@ -160,7 +177,7 @@
 																	}
 																</script>
 																<div style="overflow: hidden; padding-right: .5em;">
-																	<input name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+																	<input id="email" name ='detail' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
 																</div>
 															</form>
 																</div>
@@ -318,7 +335,7 @@
 												<p id="contactText1" style="font-size: 1.3em"><p id="oldChild2"> Want us to contact you? Share your details</p></p>
 												<div id="contact2">
 													<form id="contact3" name="form1">
-														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="changeValue2()"/>
+														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="processInput()"/>
 														<script>
 															function changeValue2() {
 																if(document.getElementsByName('detail2')[0].value=='' || undefined)
