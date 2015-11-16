@@ -8,13 +8,13 @@ if(isset($_POST['email'])){
     $last_name = "Last_Name";
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
-    $message = $_POST['message'] . $email;
+    $message = "A new contact found!" . $_POST['message'] . $email;
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    echo "Mail Sent. Thank you. We will contact you shortly.";
     }
 ?>

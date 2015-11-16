@@ -143,15 +143,12 @@
                                                                     }
                                                                     function processData(evt) {
                                                                         evt.preventDefault();
-
                                                                         var email = document.getElementById("email").value;
-
                                                                         var xhr = new XMLHttpRequest();
                                                                         xhr.addEventListener("load", responseHandler);
-
                                                                         xhr.open("POST", "contact.php", true);
                                                                         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                                                                        xhr.send("email=" + email + "&message=<insertMessageTextHere>");
+                                                                        xhr.send("email=" + email + "&message= New Contact Information - ");
                                                                     }
 
 																	function changeValue() {
@@ -335,8 +332,21 @@
 												<p id="contactText1" style="font-size: 1.3em"><p id="oldChild2"> Want us to contact you? Share your details</p></p>
 												<div id="contact2">
 													<form id="contact3" name="form1">
-														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="processInput()"/>
+														<input type="button" name= 'b1' value="Contact Me" style="float: right" onclick="processData2(event)"/>
 														<script>
+															function responseHandler2(evt) {
+																console.log(this.responseText);
+																changeValue2();
+															}
+															function processData2(evt) {
+																evt.preventDefault();
+																var email2 = document.getElementById("email2").value;
+																var xhr = new XMLHttpRequest();
+																xhr.addEventListener("load", responseHandler2);
+																xhr.open("POST", "contact.php", true);
+																xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+																xhr.send("email=" + email2 + "&message= New Contact Information - ");
+															}
 															function changeValue2() {
 																if(document.getElementsByName('detail2')[0].value=='' || undefined)
 																	return;
@@ -360,7 +370,7 @@
 															}
 														</script>
 														<div style="overflow: hidden; padding-right: .5em;">
-															<input name ='detail2' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
+															<input id='email2' name ='detail2' type="text" style="width: 100%;" placeholder="Email or Phone" required/>
 														</div>
 													</form>
 												</div>
