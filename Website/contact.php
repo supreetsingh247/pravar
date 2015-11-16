@@ -9,7 +9,7 @@ if(isset($_POST['email'])){
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
     $message = "A new contact found!" . $_POST['message'] . $email;
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $message2 = "Thank you. We will contact you shortly.";
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
