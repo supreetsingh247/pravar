@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc17fe7-4ddc-4f18-9544-57c078f48859" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/images/Call_WhatsappOld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/fonts/slick.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/fonts/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/fonts/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/assets/js/initializeSlider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/fonts/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick-theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/slick/slick.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/dist/jquery.superslides.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/dist/jquery.superslides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/dist/stylesheets/superslides.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/css/superslides.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/fade.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/javascripts/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/javascripts/hammer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/javascripts/jquery.animate-enhanced.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Website/examples/javascripts/jquery.easing.1.3.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/css/yolo.css" afterPath="$PROJECT_DIR$/Website/assets/css/yolo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/images/clean.jpg" afterPath="$PROJECT_DIR$/Website/images/clean.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/images/healthCare.jpg" afterPath="$PROJECT_DIR$/Website/images/healthCare.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/images/potential.jpeg" afterPath="$PROJECT_DIR$/Website/images/potential.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/images/shopkeeper.jpg" afterPath="$PROJECT_DIR$/Website/images/shopkeeper.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Website/examples/images/smartChoice.jpg" afterPath="$PROJECT_DIR$/Website/images/smartChoice.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/assets/css/main.css" afterPath="$PROJECT_DIR$/Website/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/assets/js/initializeSlider.js" afterPath="$PROJECT_DIR$/Website/assets/js/initializeSlider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/index.html" afterPath="$PROJECT_DIR$/Website/index.html" />
     </list>
     <ignored path="html5up-twenty.iws" />
@@ -93,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0">
-              <caret line="44" column="74" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+            <state vertical-scroll-proportion="-12.064516">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -150,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initializeSlider.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="initializeSlider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/assets/js/initializeSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.2990291">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -203,8 +171,8 @@
         <option value="$PROJECT_DIR$/Website/dist/jquery.superslides.js" />
         <option value="$PROJECT_DIR$/Website/dist/stylesheets/superslides.css" />
         <option value="$PROJECT_DIR$/Website/assets/css/yolo.css" />
-        <option value="$PROJECT_DIR$/Website/assets/js/initializeSlider.js" />
         <option value="$PROJECT_DIR$/Website/index.html" />
+        <option value="$PROJECT_DIR$/Website/assets/js/initializeSlider.js" />
       </list>
     </option>
   </component>
@@ -477,12 +445,6 @@
       <created>1445194301198</created>
       <option name="number" value="Default" />
       <updated>1445194301198</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Adding files to repo">
-      <created>1445197178782</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1445197178782</updated>
     </task>
     <task id="LOCAL-00002" summary="Colour Changes">
       <created>1445197657306</created>
@@ -772,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447707483175</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added new slider">
+      <created>1448190695490</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1448190695506</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -818,7 +786,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added ticks, changed colours, Changed heading" />
     <MESSAGE value="Changed the nav bar width from 3.25 em to 4.5 em" />
     <MESSAGE value="Adjusted padding to centre the image" />
     <MESSAGE value="Adjusted logo, headings size and position" />
@@ -843,7 +810,8 @@
     <MESSAGE value="Minor" />
     <MESSAGE value="Page 3 right column width adjusted." />
     <MESSAGE value="Last page text added to middle column." />
-    <option name="LAST_COMMIT_MESSAGE" value="Last page text added to middle column." />
+    <MESSAGE value="Added new slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1050,20 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/assets/js/initializeSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0">
-          <caret line="44" column="74" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+        <state vertical-scroll-proportion="-12.064516">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#p#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1089,6 +1047,16 @@
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/assets/js/initializeSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2990291">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
