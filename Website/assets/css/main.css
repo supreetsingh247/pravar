@@ -2337,6 +2337,7 @@
 
 			.box.post-summary {
 				margin: 0 !important;
+				width: 130%;
 			}
 
 				.box.post-summary h3 {

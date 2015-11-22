@@ -7,10 +7,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/yolo.css" />
 <!--Slider CSS-->
-		<link rel="stylesheet" href="examples/css/yolo.css">
-		<link rel="stylesheet" href="examples/css/superslides.css">
-		<link rel="stylesheet" href="examples/css/layout.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+        <!--
+                <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        -->
 		<!--End Slider CSS-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -37,23 +41,13 @@
 
 
 			<!--Slider Starts-->
-			<div id="slides">
-				<div class="slides-container">
-					<img src="examples/images/potential.jpeg" width="100%" height="682" alt="Potential">
-					<img src="examples/images/shopkeeper.jpg" width="100%" height="685" alt="Shopkeeper">
-					<img src="examples/images/healthCare.jpg" width="100%" alt="Health Care">
-					<img src="examples/images/clean.jpg" width="100%" alt="Clean">
-					<img src="examples/images/smartChoice.jpg" width="100%" alt="Smart Choice">
-				</div>
-
-				<!--<nav class="slides-navigation">-->
-					<!--<a href="#" class="next">-->
-						<!--<img src="images/rightArrow.png" width="23">-->
-					<!--</a>-->
-					<!--<a href="#" class="prev">-->
-						<!--<img src="images/leftArrow.png" width="23">-->
-					<!--</a>-->
-				<!--</nav>-->
+			<div class="autoplay">
+                <button type="button" class="slick-prev">Previous</button>
+                <div><img src="images/clean.jpg" width="100%"> </div>
+                <div><img src="images/healthCare.jpg" width="100%"> </div>
+                <div><img src="images/potential.jpeg" width="100%"> </div>
+                <div><img src="images/shopkeeper.jpg" width="100%"> </div>
+                <div><img src="images/smartChoice.jpg" width="100%"> </div>
 			</div>
 			<!--Slider Ends-->
 			<!-- Banner -->
@@ -402,17 +396,9 @@
 
 		<!--Slider Scripts-->
 		<script src="assets/js/jquery.min.js"></script>
-		<script src="examples/javascripts/jquery.easing.1.3.js"></script>
-		<script src="examples/javascripts/jquery.animate-enhanced.min.js"></script>
-		<script src="examples/javascripts/hammer.min.js"></script>
-		<script src="dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
-		<script src="examples/javascripts/application.js"></script>
-		<script>
-			$('#slides').superslides({
-				animation: 'fade'
-			});
-		</script>
-		<!--SLider Script Ends-->
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="assets/js/initializeSlider.js"></script>
+        <!--SLider Script Ends-->
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
