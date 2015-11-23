@@ -520,11 +520,11 @@ table {
 
 .slick-prev {
     left: 5px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .slick-next {
     right: 5px;
-    z-index: 1;
+    z-index: -1;
 }
 
