@@ -503,3 +503,28 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.contactImage{
+    float:right;
+}
+
+.slick-slider{
+    margin-top: 63px;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .slick-slider{
+        margin-top: 44px;
+    }
+}
+
+.slick-prev {
+    left: 5px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 5px;
+    z-index: 1;
+}
+
