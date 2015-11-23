@@ -531,3 +531,6 @@ table {
     z-index: -1;
 }
 
+.socialIcons{
+    float: left;
+}
