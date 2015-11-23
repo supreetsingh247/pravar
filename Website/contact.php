@@ -3,7 +3,7 @@ if(isset($_POST['email'])){
     print_r($_POST);
     $email = $_POST['email'];
     $to = "supreetsingh.247@gmail.com"; // this is your Email address
-    $to2 = "info@insolergy.com";
+    $to2 = "ask@insolergy.com";
     $from = $email; // this is the sender's Email address
     $first_name = "First_name";
     $last_name = "Last_Name";
