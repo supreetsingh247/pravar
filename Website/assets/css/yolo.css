@@ -516,6 +516,9 @@ table {
     .slick-slider{
         margin-top: 44px;
     }
+    .mobileSidePanel{
+        width: 75%;
+    }
 }
 
 .slick-prev {
